@@ -1,6 +1,5 @@
-version: "3.9"
 services:
   ops:
-    build: ./infra/php
+    build: ./infra/php8.3
     volumes:
       - .:/data
